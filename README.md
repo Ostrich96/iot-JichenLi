@@ -38,6 +38,7 @@ First run:
     cd ~/Downloads/
     
 Then:
+
     sudo wget https://download.01.org/opencv/2020/openvinotoolkit/2020.1/l_openvino_toolkit_runtime_raspbian_p_2020.1.023.tgz
 
 You can view 'https://software.intel.com/en-us/articles/OpenVINO-Install-RaspberryPI' to check which version you want to install. I choose the version '2020.1.023'.  
@@ -74,7 +75,7 @@ oepn a new terminal, if you see this below meaning success.
 ## Add USB Rules
     sudo usermod -a -G users "$(whoami)"
     sh /opt/intel/openvino/install_dependencies/install_NCS_udev_rules.sh
-    
+
 then we are ready to compile and run Object detection sample
 
 ## Build and Run Object Detection Sample
