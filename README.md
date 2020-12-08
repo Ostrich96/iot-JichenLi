@@ -162,7 +162,9 @@ You can get the similar result like me:
 ![image](https://github.com/Ostrich96/iot-JichenLi/blob/master/pic/pic%20(5).png)
 
 -f 30 means frame rate, you can change it as you want.
+
 -r 1280x720 means resolution, youcan also change it.
+
 -p 8080 means through the 8080 port.
 
 ## Install Cpolar
@@ -197,6 +199,7 @@ Open a new window shell, run this:
     ./cpolar http 8080
 
 You will get this:
+
 ![image](https://github.com/Ostrich96/iot-JichenLi/blob/master/pic/pic%20(4).png)
 
 The Tunnel Status should be: online. It means you penetrate intranet successfully.
@@ -206,7 +209,9 @@ The Account is your user name
 Fowarding is the ip address tha Cpolar distribute to you Raspberry Pi.
 
 Use any device that can get into internet, enter the address in the picture, you can watch the camera through internet now.
+
 ![image](https://github.com/Ostrich96/iot-JichenLi/blob/master/pic/pic%20(1).png)
+
 ![image](https://github.com/Ostrich96/iot-JichenLi/blob/master/pic/pic%20(2).png)
 
 
