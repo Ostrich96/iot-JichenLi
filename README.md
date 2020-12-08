@@ -97,6 +97,9 @@ Follow the next steps to run pre-trained Face Detection network using Inference 
 ## Download the pre-trained Face Detection model or copy it from the host machine:
 Should pay attention here: if you download the model from the Guide, it will not work. The model after 2020 all has a bug that it can not run correctly.
 
+You may meet this trouble:
+![image](https://github.com/Ostrich96/iot-JichenLi/tree/master/pic/pic (8).png
+
 So I recommond you download the model below:
     
     wget --no-check-certificate https://download.01.org/opencv/2019/open_model_zoo/R3/20190905_163000_models_bin/face-detection-adas-0001/FP16/face-detection-adas-0001.xml
@@ -113,12 +116,15 @@ To run this .py, you have to install opencv
     pip3 install opencv-python
 
 Then check the camera situation. Attention, you have to turn on the camera service
+![image](https://github.com/Ostrich96/iot-JichenLi/tree/master/pic/pic (6).png
 
 Run:
     
     python3 face_detection.py
 
 You can check the result now.
+
+![image](https://github.com/Ostrich96/iot-JichenLi/tree/master/pic/pic (3).png
 
 ## Quit
  Press 'q' if you want to quit the face_detection program, and the program will generate an 'out.png' in the folder, which catch the last frame through the detection.
@@ -150,6 +156,7 @@ Run the Mjpg-Streamer:
     /usr/local/bin/mjpg_streamer -i "/usr/local/lib/mjpg-streamer/input_uvc.so -n -f 30 -r 1280x720" -o "/usr/local/lib/mjpg-streamer/output_http.so -p 8080 -w /usr/local/share/mjpg-streamer/www"
 
 You can get the similar result like me:
+![image](https://github.com/Ostrich96/iot-JichenLi/tree/master/pic/pic (5).png
 
 -f 30 means frame rate, you can change it as you want.
 -r 1280x720 means resolution, youcan also change it.
@@ -173,6 +180,7 @@ Then install Cpolar on the Raspberry Pi:
 Get your account's token from the Cpolar' web.
 
 For my internet safety I covered part of my token
+![image](https://github.com/Ostrich96/iot-JichenLi/tree/master/pic/pic (7).png
 
 Run:
 
@@ -185,6 +193,7 @@ Open a new window shell, run this:
     ./cpolar http 8080
 
 You will get this:
+![image](https://github.com/Ostrich96/iot-JichenLi/tree/master/pic/pic (4).png
 
 The Tunnel Status should be: online. It means you penetrate intranet successfully.
 
@@ -193,5 +202,7 @@ The Account is your user name
 Fowarding is the ip address tha Cpolar distribute to you Raspberry Pi.
 
 Use any device that can get into internet, enter the address in the picture, you can watch the camera through internet now.
+![image](https://github.com/Ostrich96/iot-JichenLi/tree/master/pic/pic (1).png
+![image](https://github.com/Ostrich96/iot-JichenLi/tree/master/pic/pic (2).png
 
 
