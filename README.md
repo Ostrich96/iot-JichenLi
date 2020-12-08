@@ -2,12 +2,19 @@
 ## Project: Face detection and Internet penetration
 ### EE-629-Internet-of-Things
 [2020-09-14] Bought a Raspberry Pi 4B and a 32GB sd card. Download the Noobs program and the ssh to manage the Raspberry Pi through my laptop\
+
 [2020-10-3] Forget to update my progress. have learn some video about Raspberry Pi. decide to make a cnn network using Movidius Neural Compute Stick and Raspberry Pi. With Movidius Neural Compute Stick, the RP can run some deep learning network and get more functions like face detection.\
+
 [2020-10-10] Learn about the Docker showed in the Lab5a, its a package of the code we run, pack all the code into one docker.\
+
 [2020-10-12] Do the Lab5A as the lesson5 has showed. \
+
 [2020-10-18] I'm making a security camera, using Human body sensing module. If the sensing detect human motion, the Raspberry Pi will start the camera and start recording. Meanwhile the Raspberry Pi can analysis human face in the video. If it is a stranger, the raspberry will send a message to my phone and I can watch the situation through Raspberry Pi's camera on the phone.\
+
 [2020-10-27] Connecting the Human body sensing module. And my camera for Raspberry Pi still on the road...\
+
 [2020-11-1] Learning to build a CNN for face recognition.\
+
 [2020-12-7] This month I finished my project. Face detection is not hard. However how to make Raspberry Pi visible on the internet is kind of difficult. I've tried many ways. First I try to use a python library called Wechat_sender. It should be able to send message to my wechat. But I find that the library need wechat web on the browser and Tecent has closed this service. Then I tried a internet penetraion tool called 'Peanut shells','花生壳' in Chinese. The problem is, my Rasberry Pi installed armv7l system, which is 32-bit. And the Peanut shells' latest version only support armv8, which is 64-bit system. It's not work again. Another way is using cloud server, and nearlly all of them need to pay an extra money like the Lab6's Particle Cloud. Finally I find a free tool named Cploar which can do intranet penetration. So I tried and succeeded. Besides lab6, I also do the lab7, lab8. Actually lab8 is the same as the homework3 of EE695.
 
 # Face detection
